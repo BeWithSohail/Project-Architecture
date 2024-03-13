@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  line-height: 1;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  color: var(--black);
+}
+/* Common Styles */
+h1, h2, h3, h4, h5, h6 {
+font-family: Arial, sans-serif;
+font-weight: bold;
+}
+
+p {
+font-family: Arial, sans-serif;
+line-height: 1.5;
+}
+
+a {
+color: var(--primary-color);
+text-decoration: none;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+  border: 0;
+}
+
+a,
+input:focus {
+    outline: none;
+}
+
+a:hover,
+a:active {
+    outline-width: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  display: block;
+}
+
+section {
+display: block;
+position: relative;
+}
+
+section:after {
+content: "";
+clear: both;
+display: block;
+}
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.align-between {
+  align-content: space-between;
+}
+
+.align-content-center {
+  align-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-start {
+  align-items: start;
+}
+
+b,
+strong {
+  font-weight: 700;
+}
+
+sup,
+sub {
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  margin-bottom: var(--spacing-03);
+}
+
+h1 {
+  font-size: 42px;
+  line-height: 46px;
+}
+
+h2 {
+  font-size: 40px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 28px;
+  line-height: 30px;
+}
+
+h4 {
+  font-size: 24px;
+  line-height: 27px;
+}
+
+h5 {
+  font-size: 20px;
+  line-height: 23px;
+}
+
+h6 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  padding-bottom: var(--spacing-04);
+}
+
+p:last-child {
+  padding-bottom: 0;
+}
+
+blockquote {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+}
+
+.no-padding {
+  padding: 0 !important;
+}
+
+.no-padding-top {
+  padding-top: 0 !important;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+
+
+.cta-link {
+  font-size: var(--spacing-03);
+  line-height: 22px;
+  font-weight: 800;
+  color: var(--black);
+  text-decoration: none;
+  padding-bottom: 1px;
+  display: inline;
+  transition: all 0.35s linear;
+  background-image: linear-gradient(to bottom, #000 0%, #000 98%);
+  background-size: 29px 2px;
+  background-repeat: no-repeat;
+  background-position: left 100%;
+}
+
+.rounded {
+
+}
+
+small {
+  font-size: 13px;
+  line-height: 14px;
+  letter-spacing: 1.56px;
+}
+
+.col {
+  width: 100%;
+}
+
+.col-2 {
+  width: 100%;
+}
+
+
+
+  /* Common Styles for Desktop */
+    /* Add styles for desktop screens here */
+@media all and (max-width: 992px) {
+      h1 {
+          font-size: 44px;
+          line-height: 48px;
+      }
+  
+      h3 {
+          font-size: 35px;
+          line-height: 38px;
+      }
+  
+      h4 {
+          font-size: 30px;
+          line-height: 33px;
+      }
+  
+      h5 {
+          font-size: 23px;
+          line-height: 26px;
+      }
+  
+      blockquote {
+          font-size: 32px;
+          line-height: 35px;
+      }
+}
+/* Common Styles for Tablets */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Add styles for tablets here */
+  h1 {
+    font-size: 44px;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 38px;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 33px;
+}
+
+h5 {
+    font-size: 23px;
+    line-height: 26px;
+}
+
+blockquote {
+    font-size: 32px;
+    line-height: 35px;
+}
+}
+
+/* Common Styles for Mobile Devices */
+@media only screen and (max-width: 767px) {
+  /* Add styles for mobile devices here */
+  h1 {
+    font-size: 44px;
+    line-height: 48px;
+}
+
+h3 {
+    font-size: 35px;
+    line-height: 38px;
+}
+
+h4 {
+    font-size: 30px;
+    line-height: 33px;
+}
+
+h5 {
+    font-size: 23px;
+    line-height: 26px;
+}
+
+blockquote {
+    font-size: 32px;
+    line-height: 35px;
+}
+}
+
+  
+

@@ -1,0 +1,121 @@
+  /* Background Colors */
+:root {
+    --primary-bg-color: #f8f9fa; /* Light Gray */
+    --secondary-bg-color: #ffffff; /* White */
+    --dark-bg-color: #343a40; /* Dark Gray */
+    --primary-bg-red: #ff0000; /* Red */
+    --primary-bg-blue: #0000ff; /* Blue */
+    --primary-bg-green: #00ff00; /* Green */
+    --primary-bg-yellow: #ffff00; /* Yellow */
+    --primary-bg-orange: #ffa500; /* Orange */
+    --primary-bg-purple: #800080; /* Purple */
+    --primary-bg-cyan: #00ffff; /* Cyan */
+    --primary-bg-magenta: #ff00ff; /* Magenta */
+    --primary-bg-pink: #ffc0cb; /* Pink */
+    --primary-bg-brown: #a52a2a; /* Brown */
+}
+
+/* Colors */
+:root {
+    --primarytext-color: #007bff; /* Blue */
+    --primarytext-light: #cce5ff; /* Light Blue */
+    --primarytext-dark: #0056b3; /* Dark Blue */
+    --secondarytext-color: #6c757d; /* Gray */
+    --secondarytext-light: #e9ecef; /* Light Gray */
+    --secondarytext-dark: #495057; /* Dark Gray */
+    --successtext-color: #28a745; /* Green */
+    --dangertext-color: #dc3545; /* Red */
+    --warningtext-color: #ffc107; /* Yellow */
+    --infotext-color: #17a2b8; /* Cyan */
+}
+  
+  /* Font Sizes */
+:root {
+    --small-font-size: 14px;
+    --medium-font-size: 16px;
+    --large-font-size: 18px;
+    --extra-small-font-size: 12px;
+    --extra-large-font-size: 20px;
+}
+
+/* Font Sizes for Heading */
+:root{
+  --heading--small-font-size: 14px;
+  --heading--medium-font-size: 16px;
+  --heading--large-font-size: 18px;
+  --heading--extra-small-font-size: 12px;
+  --heading--extra-large-font-size: 20px;
+}
+
+/* Font Sizes for ParaGaraph */
+:root{
+  --para--small-font-size: 14px;
+  --para--medium-font-size: 16px;
+  --para--large-font-size: 18px;
+  --para--extra-small-font-size: 12px;
+  --para--extra-large-font-size: 20px;
+}
+  
+:root {
+  /* Spacing for padding */
+  --padding-00: 4px;
+  --padding-01: 8px;
+  --padding-02: 12px;
+  --padding-03: 16px;
+  --padding-04: 24px;
+  --padding-05: 32px;
+  --padding-06: 48px;
+  --padding-07: 64px;
+  --padding-08: 96px;
+  --padding-09: 128px;
+  --padding-10: 192px;
+  --padding-11: 256px;
+  --padding-12: 384px;
+  --padding-13: 512px;
+  --padding-14: 768px;
+  --padding-15: 1024px;
+  --padding-16: 1536px;
+  --padding-17: 2048px;
+  --padding-18: 3072px;
+  --padding-19: 4096px;
+  --padding-20: 6144px; 
+}
+
+:root {
+  /* Spacing for margin */
+  --margin-00: 4px;
+  --margin-01: 8px;
+  --margin-02: 12px;
+  --margin-03: 16px;
+  --margin-04: 24px;
+  --margin-05: 32px;
+  --margin-06: 48px;
+  --margin-07: 64px;
+  --margin-08: 96px;
+  --margin-09: 128px;
+  --margin-10: 192px;
+  --margin-11: 256px;
+  --margin-12: 384px;
+  --margin-13: 512px;
+  --margin-14: 768px;
+  --margin-15: 1024px;
+  --margin-16: 1536px;
+  --margin-17: 2048px;
+  --margin-18: 3072px;
+  --margin-19: 4096px;
+  --margin-20: 6144px;
+}
+
+/* Border Radius */
+:root {
+  --border-radius-1: 2px;
+  --border-radius-2: 4px;
+  --border-radius-3: 6px;
+  --border-radius-4: 8px;
+  --border-radius-5: 10px;
+  --border-radius-6: 12px;
+  --border-radius-7: 14px;
+  --border-radius-8: 16px;
+  --border-radius-9: 18px;
+  --border-radius-10: 20px;
+}
